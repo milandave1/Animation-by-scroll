@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+.animation {
+    height: 100vh; 
+    background-image: linear-gradient(
+        to right, 
+        #fa709a 0%, 
+        #fee140 100%
+        );
+    position: relative;
+    overflow: hidden;
+}
+
+.paper-plane {
+    position: absolute; /* type this in to allow it to be moved */
+    top: 50%; /* percentage from the top */
+    left: 0; /* how far from the left */
+    height: 100px; /* This is the size of the height of the image */
+}
+
+h2 {
+    height:200vh;
+}
